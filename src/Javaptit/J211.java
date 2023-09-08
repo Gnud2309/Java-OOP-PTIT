@@ -1,2 +1,4 @@
-package Javaptit;public class J211 {
+package Javaptit;
+
+public class J211 {
 }
