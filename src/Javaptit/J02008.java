@@ -1,4 +1,4 @@
-package javaapplication11;
+package Javaptit;
 
 public class J02008 {
 }

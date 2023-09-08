@@ -1,4 +1,4 @@
-package javaapplication11;
+package Javaptit;
 
 import java.io.File;
 import java.io.IOException;

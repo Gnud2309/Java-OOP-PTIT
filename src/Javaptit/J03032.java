@@ -1,4 +1,4 @@
-package javaapplication11;
+package Javaptit;
 
 import java.util.*;
 public class J03032 {

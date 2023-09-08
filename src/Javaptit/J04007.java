@@ -1,5 +1,4 @@
-package javaapplication11;
-
+package Javaptit;
 import java.util.Scanner;
 
 class NhanVien{

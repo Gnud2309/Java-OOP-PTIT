@@ -1,4 +1,4 @@
-package javaapplication11;
+package Javaptit;
 
 import java.math.BigInteger;
 import java.util.Scanner;
