@@ -54,7 +54,11 @@ public class Main {
         sc.nextLine(); // Tiêu thụ dòng chứa số nguyên trước đó
 
         for (int i = 0; i < t; i++) {
-            arr.add(new SinhVien(sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine()));
+            String ma = sc.nextLine();
+            String ten = sc.nextLine();
+            String lop = sc.nextLine();
+            String email = sc.nextLine();
+            arr.add(new SinhVien(ma, ten, lop, email));
         }
 
         int q = sc.nextInt();
@@ -71,6 +75,7 @@ public class Main {
                 }
             }
             System.out.print(sb);
+
         }
     }
 }

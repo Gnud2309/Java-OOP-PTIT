@@ -10,10 +10,10 @@ class SinhVien {
 
     private static Map<String, String> createIndexMap() {
         Map<String, String> indexMap = new HashMap<>();
-        indexMap.put("DCCN", "CONG NGHE THONG TIN");
-        indexMap.put("DCAT", "AN TOAN THONG TIN");
-        indexMap.put("DCVT", "VIEN THONG");
-        indexMap.put("DCKT", "KE TOAN");
+        indexMap.put("DCCN", "Cong nghe thong tin");
+        indexMap.put("DCAT", "An toan thong tin");
+        indexMap.put("DCVT", "Vien thong");
+        indexMap.put("DCKT", "Ke toan");
         return indexMap;
     }
 
@@ -26,7 +26,7 @@ class SinhVien {
     }
 
     private String getIndexFromMap() {
-        String key = ma.substring(3, 7);
+        String key = ma.substring(3, 7).toUpperCase(); // Chuyển đổi key thành chữ hoa
         if (INDEX_MAP.containsKey(key) && lop.charAt(0) != 'E') {
             return INDEX_MAP.get(key);
         }
