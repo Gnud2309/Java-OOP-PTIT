@@ -1,4 +1,4 @@
-package Javaptit.J05028;
+package Javaptit.J05029;
 
 public class DoanhNghiep {
     private String ma,ten;
@@ -28,6 +28,6 @@ public class DoanhNghiep {
 
     @Override
     public String toString() {
-        return ma+" "+ten +" "+soLuong;
+        return ma+" "+ten+" "+soLuong;
     }
 }
