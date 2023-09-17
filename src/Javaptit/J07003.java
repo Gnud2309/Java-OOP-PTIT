@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class J07003 {
     public static void main(String[] args) throws IOException
     {
-        Scanner sc = new Scanner(new File("DATA.in"));
+        Scanner sc = new Scanner(new File(".idea/DATA.in"));
         String s = sc.nextLine();
         if (s.length() == 1)
             System.out.println(s);
