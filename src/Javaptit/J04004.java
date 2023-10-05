@@ -37,7 +37,7 @@ public class J04004 {
         long b = sc.nextLong();
         long c = sc.nextLong();
         long d = sc.nextLong();
-        PhanSo x = new PhanSo(a * d + c * b, b * d);
+        ChiaHet x = new ChiaHet(a * d + c * b, b * d);
         System.out.println(x);
     }
 }

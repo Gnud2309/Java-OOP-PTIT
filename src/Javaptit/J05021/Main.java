@@ -41,8 +41,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<SinhVien> arr = new ArrayList<>();
-        while (sc.hasNext()) {
-            arr.add(new SinhVien(sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine()));
+        while (sc.hasNextLine()) {
+            String line = sc.nextLine();
+            if (line.equals("")) {
+                break;
+            }
+            arr.add(new SinhVien(line, sc.nextLine(), sc.nextLine(), sc.nextLine()));
         }
         Collections.sort(arr, new Comparator<SinhVien>() {
             @Override
